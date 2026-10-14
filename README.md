@@ -379,6 +379,9 @@ Use the [orsome](http://www.youtube.com/watch?v=YaIZF8uUTtk) [CocoaPods](http://
 In your Podfile
 >`pod 'Masonry'`
 
+Or use Swift Package Manager: in Xcode choose **File > Add Package Dependencies…** and enter `https://github.com/Wookings/Masonry`, or add it to your `Package.swift` dependencies
+>`.package(url: "https://github.com/Wookings/Masonry", branch: "master")`
+
 If you want to use masonry without all those pesky 'mas_' prefixes. Add #define MAS_SHORTHAND to your prefix.pch before importing Masonry
 >`#define MAS_SHORTHAND`
 
